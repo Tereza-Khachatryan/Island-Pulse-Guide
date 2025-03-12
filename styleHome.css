@@ -1,0 +1,123 @@
+body {
+    font-family: "Arima", system-ui;
+    background-image: url("./images/pexels-asadphoto-1320684.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+/*------------------------------------------------------------------------*/
+.blocked {
+    pointer-events: none;
+    cursor: default;
+}
+
+/*------------------------------------------------------------------------*/
+
+header {
+    color: #ffffff;
+    background-color: #94b2c500;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header a {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header a:hover {
+    opacity: 40%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+main {
+    flex: 1;
+    padding: 20px
+}
+
+.homeH2,.homeParagraf{
+    color: #F8F8FF;
+    text-shadow: #F8F8FF 1px 0 10px;
+    background-color: #b6a5469d;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 25px;
+    text-align: center;
+
+    font-size: 50px
+}
+
+.homeParagraf {
+    font-size: 25px;
+}
+
+/*------------------------------------------------------------------------*/
+
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    color: #F8F8FF;
+    background-color: #b6a54600;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100%;
+    max-height: 30px;
+    height: auto;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.socialMedia img {
+    max-width: 100%;
+    max-height: 50px;
+    height: auto;
+    filter: invert(1)
+}
+
+.socialMedia img:hover {
+    opacity: 40%;
+}
